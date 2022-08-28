@@ -8,14 +8,6 @@ modal = document.getElementById('modal')
 modal.className = 'hidden'
 
 const likey = document.querySelectorAll('.like-glyph')
-// const activated = document.createElement('activated-heart')
-// activated.innerHTML = `${FULL_HEART}`
-// const deactivated = document.createElement('deactivated-class')
-// activated.innerHTML = `${EMPTY_HEART}`;
-// likey.innerHTML = `${EMPTY_HEART}`
-// console.log(likey)
-// likey.addEventListener('click', mimicServerCall);
-
 likey.forEach((like) => {
   like.addEventListener('click', (e) => {
     mimicServerCall()
